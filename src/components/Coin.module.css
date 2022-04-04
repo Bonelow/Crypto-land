@@ -35,6 +35,26 @@
   width: 100px;
 }
 
+.arrowUp {
+  border: solid;
+  color: rgb(0, 204, 0);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.arrowDown {
+  border: solid;
+  color: rgb(255, 38, 38);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 .greenPriceChange,
 .redPriceChange {
   width: 100px;
